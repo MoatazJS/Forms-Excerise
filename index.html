@@ -24,6 +24,10 @@
               </tr>
             </table>
           </fieldset>
+          <br />
+          <br />
+          <br />
+          <br />
           <table>
             <tr>
               <td>
@@ -33,12 +37,121 @@
                 <p>:</p>
               </td>
               <td>
-                <input type="number" id="phoneNum" name="phoneNumber" />
+                <input type="tel" id="phoneNum" name="phoneNumber" />
               </td>
             </tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
+            <tr>
+              <td>
+                <label for="email">Email</label>
+              </td>
+              <td>
+                <p>:</p>
+              </td>
+              <td>
+                <input type="email" id="email" name="userEmail" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="password">Password</label>
+              </td>
+              <td>
+                <p>:</p>
+              </td>
+              <td>
+                <input type="password" id="password" name="userPassword" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="passwordConfirmation">Re-Password</label>
+              </td>
+              <td>
+                <p>:</p>
+              </td>
+              <td>
+                <input
+                  type="password"
+                  id="passwordConfirmation"
+                  name="userPasswordConfirmation"
+                />
+              </td>
+            </tr>
+          </table>
+          <br />
+          <br />
+          <br />
+          <br />
+          <table>
+            <tr>
+              <td>
+                <input type="radio" name="gender" id="male" value="male" />
+              </td>
+              <td>
+                <label for="male">Male</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="gender" id="female" value="Female" />
+              </td>
+              <td>
+                <label for="female">Female</label>
+              </td>
+            </tr>
+          </table>
+          <br />
+          <br />
+          <br />
+          <br />
+          <table>
+            <tr>
+              <td>
+                <input
+                  type="checkbox"
+                  name="skills"
+                  id="cooking"
+                  value="Cooking"
+                />
+              </td>
+              <td>
+                <label for="cooking">Cooking</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="checkbox"
+                  name="skills"
+                  id="driving"
+                  value="Driving"
+                />
+              </td>
+              <td>
+                <label for="driving">Driving</label>
+              </td>
+            </tr>
+          </table>
+          <br />
+          <br />
+          <br />
+          <table>
+            <tr>
+              <td>
+                <select name="car" id="carChoice" style="width: 100px">
+                  <optgroup label="Super Cars">
+                    <option value="porsche">Porsche</option>
+                    <option value="ferrari">Ferrari</option>
+                    <option value="bugatti">Bugatti</option>
+                  </optgroup>
+                  <optgroup label="Luxury Cars">
+                    <option value="rollsRoyce">Rolls Royce</option>
+                    <option value="bentley">Bentley</option>
+                    <option value="rangeRover">Range Rover</option>
+                  </optgroup>
+                </select>
+              </td>
+            </tr>
           </table>
         </form>
       </fieldset>
